@@ -28,9 +28,9 @@ module Listabeta
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.available_locales = %i(pt-BR)
-    config.i18n.default_locale = :"pt-BR"
-    config.i18n.locale = :"pt-BR"
+    config.i18n.available_locales = %i(en-US)
+    config.i18n.default_locale = :"en-US"
+    config.i18n.locale = :"en-US"
 
     config.generators do |g|
       g.template_engine :slim
